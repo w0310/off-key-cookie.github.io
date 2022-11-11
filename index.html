@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>放肆爱</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">  <!--导入图标，并且在界面左侧-->
+    <link rel="stylesheet" type="text/css" href="./css/index.css">  <!--href=""表示外部样式文件的路径-->
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <!--导航标签-->
+        <div class="nav">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">首页</a></li> <!--展示以往表白-->
+                <li><a href="profess.html">表白</a></li>
+                <li><a href="制作人员.html">制作人员</a></li> <!--我不知道要不要-->
+            </ul>
+        </div>
+       
+        <!--用户登陆注册-->
+        <div class="user">
+                <a href="login.html" class="login cur">登录</a>
+                <a href="register.html" class="register cur">注册</a>
+        </div>
+    </div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="link-nav">
+            <div class="copyright">无处安放的青春，注定在这流年染指悲伤的年代里陨落</div> <!--页尾句子-->
+        </div>
+    </div>
+</footer>
+
+<div id="toTop"></div> <!--返回顶部-->
+
+<script type="text/javascript">
+    window.onload = function () {
+        setPage("index.html");
+        initScrollToTop(); //滚动到顶部
+    };
+</script>
+
+</body>
+</html>
